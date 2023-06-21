@@ -1,0 +1,12 @@
+Write a program in python where discount is calculated on the input amount. Rate of discount is 5%, if the amount is less than 1000, and 10% if it is above 1000
+
+
+
+
+amount=int(input("enter amount: "))
+if amount<=1000:
+    discount=amount*5/100
+    print(discount)
+else:
+    discount=amount*10/100
+    print(discount)
