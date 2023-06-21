@@ -1,0 +1,16 @@
+Write a program to calculate the electricity bill (accept number of unit from user)according to the following criteria:
+Unit	                Price
+First 100 units	      No charge
+Next 100 units	      Rs. 5 per unit
+After 200 units	      Rs. 10 per unit
+
+
+
+unit=int(input("enter unit : "))
+if unit<=100:
+    print("no charge")
+elif unit <= 200:
+    print("your amount = ",5*(unit-100))
+else:
+    print("your amount =",10*(unit-200)
+
